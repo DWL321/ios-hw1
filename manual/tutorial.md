@@ -71,46 +71,40 @@
 
 ### 实验
 
-现在有一个英雄基类Hero，其下有若干个三国英雄子类，父类有一个统一接口：getCountry，子类各自有自己的接口实现，返回各自对应的国家。这里给出.h的参考实现，具体的.m文件自行补充。
+这里给本次作业头文件的参考实现，具体的.m文件自行补充。
 
 ```objective-c
-//
-//  Hero.h
-//  HeroPK
-//  Copyright © 2019 TMachine. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
 
-@interface Hero : NSObject {
-    NSString country;   
-    NSInteger blood_value;
-    NSInteger energy_value;
+@interface Clothes : NSObject{
+    NSString color;
+    NSInterger counter; //计数器，记录下衣物剩下冷却时间
+    
+    类型：上衣或者裤子
+    .......
 }
 
-- (void)PKOneUnit;
-- (NSInteger)getBlood_value;
-- (NSInteger)getenergy_value;
-- (NSString *)getCountry;
+- (void) setColor(NSString color);
+- (NSString) getColor();
+
+- (void) calCounter();  //计算剩余冷却时间
+    
+.......
 
 @end
 
-@interface Zhangfei : Hero {
+@interface TopClothes : Clothes{
     
 }
 
 @end
 
-@interface Lvbu :Hero {
+@interface Trousers : Clothes{
     
 }
 
 @end
 
-
-
-NS_ASSUME_NONNULL_END
 
 ```

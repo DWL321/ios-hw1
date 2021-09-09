@@ -9,9 +9,9 @@
 * Objective-C
 * Xcode
 
-TA check: 10月9日实验课或提前
+TA check: 9月23日实验课或提前
 
-DeadLine: 10月16日23:59 
+DeadLine: 10月7日23:59 
 
 ### 任务
 
