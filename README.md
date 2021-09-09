@@ -1,39 +1,58 @@
-# MOSAD2021-HW1
+## MOSAD_HW1
+### 介绍
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+个人作业1-创建第一个XCode项目、面向对象与Objective-C语法学习
 
-#### 软件架构
-软件架构说明
+###  开发环境
+
+* Mac OS
+* Objective-C
+* Xcode
+
+TA check: 10月9日实验课或提前
+
+DeadLine: 10月16日23:59 
+
+### 任务
+
+* 安装配置Mac OS和Xcode
+
+* 熟悉Mac OS按键操作
+
+* 熟悉Xcode项目结构，编译运行第一个Xcode项目，项目创建流程详见[tutorial](manual/tutorial.md)
+
+* 选取并设计N（N>10）个三国英雄
+
+实现场景输出（log形式即可）：随机选择两名英雄，挑战M（M<=10）个回合，其中每个回合各英雄可发动不同技能，从而导致不同的结果发生（英雄各属性变化及每个回合的输赢）。
+
+要求：
+
+- 输出随机选择的英雄及其关键属性，输出单挑中每回合的过程、结果，以及最终胜负结果
+- 需要用到多态
+- 输出程序设计和运行过程中，相关设计体现的oo特性（数据隐秘性、封装性、继承、多态）
+
+验收要点：
+
+- 输出随机选择的英雄及其关键属性，输出单挑中每回合的过程、结果，以及最终胜负结果
+- 类的设计与封装
+- 类与类之间的继承关系与多态的体现
 
 
-#### 安装教程
+### 提交要求及命名格式
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+/src 存放项目文件
 
-#### 使用说明
+/report 存放项目报告
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+个人项目提交方式:
 
-#### 参与贡献
+- 布置的个人项目先fork到个人仓库下；
+- clone自己仓库的个人项目到本地目录；
+- 在个人项目中，在src、report目录下，新建个人目录，目录名为“学号+姓名”，例如“12345678WangXiaoMing”；
+在“src\12345678WangXiaoMing”目录下，保存项目，按要求完成作业;
+- 实验报告以md的格式，写在“report\12345678WangXiaoMing”目录下；
+- 完成任务需求后，Pull Request回主项目的master分支，PR标题为“学号+姓名”， 如“12345678王小明”；
+- 一定要在deadline前PR。因为批改后，PR将合并到主项目，所有同学都能看到合并的结果，所以此时是不允许再PR提交作业的。
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+PS：clone项目后，不能删除或修改项目原有的所有目录和文件，否则PR项目会出错。
 
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
